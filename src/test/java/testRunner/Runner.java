@@ -6,7 +6,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 @CucumberOptions(
         features = {"src/test/java/Feature/login.feature"},
-        dryRun = true,    //To genarate the Step def template
+        dryRun = !true,    //To genarate the Step def template
         glue ="steps",
         snippets = SnippetType.CAMELCASE
 )
