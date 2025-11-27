@@ -13,7 +13,8 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         //Report generation
         plugin = {"pretty","html:reports/TestResult.html",
                     "json:reports/TestResult2.json",
-                    "junit:reports/TestResult3.xml"},
+                    "junit:reports/TestResult3.xml",
+                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         //To remove Underscore between class name
         snippets = SnippetType.CAMELCASE
         //tags = {"@smoke"} //This runs by OR condition by Default,Runs multiple grouping

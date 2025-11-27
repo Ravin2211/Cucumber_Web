@@ -1,0 +1,14 @@
+<!DOCTYPE configuration SYSTEM "http://www.extentreports.com/schemas/spark-config.dtd">
+
+<configuration>
+    <theme>standard</theme>
+    <protocol>HTTPS</protocol>
+    <encoding>UTF-8</encoding>
+
+    <documentTitle>Automation Test Report</documentTitle>
+    <reportName>Cucumber Extent Spark Report</reportName>
+
+    <timeStampFormat>dd-MM-yyyy HH:mm:ss</timeStampFormat>
+    <offlineMode>true</offlineMode>
+    <timelineEnabled>true</timelineEnabled>
+</configuration>
